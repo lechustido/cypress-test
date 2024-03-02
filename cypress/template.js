@@ -1,3 +1,5 @@
+
+require('cypress-plugin-tab')
 describe("", ()=>{
 
     //Permite omitir los errores de cors que da la pagina de cypress
