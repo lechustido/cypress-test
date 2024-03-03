@@ -8,6 +8,7 @@ describe("", ()=>{
     });
     
     it(" ", () =>{
+        cy.viewport(1900, 1200);
         cy.visit(" ");
     })
 })

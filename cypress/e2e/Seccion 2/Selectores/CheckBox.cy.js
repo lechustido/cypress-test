@@ -19,12 +19,4 @@ describe("Sección de las opciones de Cechbox", ()=>{
         cy.get('[type="checkbox"]').uncheck({force: true}).should('not.be.checked');
     })
 
-    it("Radio basico", () =>{
-        cy.visit("https://demoqa.com/__/#/specs/runner?file=cypress/e2e/Seccion+2/Selectores/CheckBox.cy.js");
-
-        cy.get(':nth-child(2) > .custom-control-label').click();
-
-       
-    })
-
 })
